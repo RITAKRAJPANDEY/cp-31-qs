@@ -37,3 +37,5 @@ int main(){
         t_case();
     }
 }
+// use set<pair<int ,int>>name 
+// use fixed array with all the possiblities if you know all the cases to make 
