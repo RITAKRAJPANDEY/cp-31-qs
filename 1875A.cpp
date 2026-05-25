@@ -4,7 +4,7 @@ void t_case(){
     int a,b,n;
     cin>>a>>b>>n;
     vector<int>v(n);
-    long long ans=b-1;
+    long long ans=b;
     if(b==0){
         cout<<0<<endl;
        
@@ -12,8 +12,8 @@ void t_case(){
     for (long long  i = 0; i < n; i++)
     {
         cin>>v[i];
-        if(v[i]>a){
-            ans+=a;
+        if(v[i]>=a){
+            ans+=a-1;
         }else{
             ans+=v[i];
         }
